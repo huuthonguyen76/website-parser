@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 from loguru import logger
 
-from base import BaseParser
+from .base import BaseParser
 
 
 class StarterStoryParser(BaseParser):
